@@ -7,5 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="openjava" level="project" />
+    <orderEntry type="library" name="etoc" level="project" />
+    <orderEntry type="library" name="junit" level="project" />
   </component>
 </module>

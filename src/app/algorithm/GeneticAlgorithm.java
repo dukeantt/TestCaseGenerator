@@ -48,7 +48,8 @@ public class GeneticAlgorithm {
                         selectionResult = selection(branch, methodSignature, z);
                         while (selectionResult == 0 && z < 100) {
                             sortPopulation();
-                            crossover(methodSignature);
+//                            crossover(methodSignature);
+                            crossover2(methodSignature);
                             mutate();
 //                            if (branch.toString().equals("8-9-10-11-12-")) {
 //                                System.out.println("loop");
